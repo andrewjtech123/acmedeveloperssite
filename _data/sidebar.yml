@@ -1,0 +1,42 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+# Spacing is really important here. A two-space indent appears below each level to indicate a new depth.
+#
+# Sidebar
+entries:
+- title: Sidebar # this title doesn't appear anywhere
+  subcategories:
+    - title: Overview
+      audience: developer, marketer
+      print: true
+
+      items:
+        - title: Cover
+          url: /titlepage/
+          audience: developer, marketer
+          print: true
+          web: false
+
+        - title: Home
+          url: /
+          audience: writer, designer
+          print: true
+
+        - title: API Intro
+          url: /HangIt_Developer_API_Intro/
+          audience: developer, marketer
+          print: true
+
+        - title: Objects
+          url: /HangIt_Developer_API_Objects/
+          audience: developer, marketer
+          print: true
+
+        - title: API Reference
+          url: /HangIt_Developer_API_Reference/
+          audience: developer, marketer
+          print: true
+
+        - title: Tutorial
+          url: /HangIt_Developer_API_Tutorial/
+          audience: developer, marketer
+          print: true
